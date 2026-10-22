@@ -6,7 +6,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.formatting.rule import CellIsRule
 
-FOLDER = Path(r"C:\Users\lande\Vacant House Finder")
+FOLDER = Path(__file__).resolve().parent
 
 HOUSE_FILE = FOLDER / "Prince_Georges_Vacancy_Leads_HOUSE_VERIFIED.xlsx"
 REDFIN_FILE = FOLDER / "Redfin_All_Downloads_Combined.xlsx"
