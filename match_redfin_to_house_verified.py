@@ -2,7 +2,7 @@ import pandas as pd
 import re
 from pathlib import Path
 
-FOLDER = Path(r"C:\Users\lande\Vacant House Finder")
+FOLDER = Path(__file__).resolve().parent
 
 HOUSE_FILE = FOLDER / "Prince_Georges_Vacancy_Leads_HOUSE_VERIFIED.xlsx"
 REDFIN_FILE = FOLDER / "Redfin_All_Downloads_Combined.xlsx"
